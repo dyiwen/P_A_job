@@ -93,8 +93,8 @@ def go_get_word(url):
             #print aa
             a = show_chinese(aa)
             time.sleep(0.1)
-            # if '连裤袜' in a or '恋腿癖' in a:
-            if '女同性恋' in a :
+            # if '{search_name}' in a or '{search_name}' in a:
+            if '{search_name}' in a :
                 print a
                 print aa,'------------------'
                 insert_info_mysql(aa)
@@ -135,15 +135,15 @@ if __name__ == '__main__':
 
 
 '''<p><span class="genre">
-<a href="https://javmoo.com/cn/genre/g">DMM独家
+<a href="https://javmoo.com/cn/genre/g">
 </a></span><span class="genre">
-<a href="https://javmoo.com/cn/genre/1d">女同性恋
+<a href="https://javmoo.com/cn/genre/1d">
 </a></span><span class="genre">
-<a href="https://javmoo.com/cn/genre/1y">其他恋物癖
+<a href="https://javmoo.com/cn/genre/1y">
 </a></span><span class="genre">
-<a href="https://javmoo.com/cn/genre/2x">恋腿癖
+<a href="https://javmoo.com/cn/genre/2x">
 </a></span><span class="genre">
-<a href="https://javmoo.com/cn/genre/4a">女同接吻
+<a href="https://javmoo.com/cn/genre/4a">
 </a></span><span class="genre">
-<a href="https://javmoo.com/cn/genre/4o">高画质
+<a href="https://javmoo.com/cn/genre/4o">
 </a></span></p>'''
